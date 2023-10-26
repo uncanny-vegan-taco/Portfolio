@@ -20,10 +20,7 @@ h3 {
   font-size: 36px;
 }
 img {
-  width: 100%;
-  height: 500px;
   border-radius: 4px;
-  transition: 200ms ease-in-out;
 }
 footer {
   margin: 0 auto;
@@ -32,6 +29,12 @@ footer {
 i {
   font-size: 30px;
   color: var(--deep-green);
+}
+.homepage img {
+  width: 100%;
+  height: 500px;
+  border-radius: 4px;
+  transition: 200ms ease-in-out;
 }
 .image-wrap:hover img {
   opacity: 0.2;
@@ -71,4 +74,16 @@ i {
   color: white;
   padding: 15px 25px;
   text-decoration: none;
+}
+.about-page-headshot {
+  width: 40%;
+}
+.about-page-name {
+  font-size: 60px;
+}
+.about {
+  font-size: 20px;
+  line-height: 2;
+}
+.about .primary-button {
 }
