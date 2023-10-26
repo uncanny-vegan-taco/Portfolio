@@ -28,20 +28,13 @@ img {
 .image-wrap:hover .image-overlay {
   opacity: 1;
 }
-.container {
-  min-width: 100%;
-}
-.primary-button {
-  background-color: #005d1c;
-  color: white;
-  padding: 15px 25px;
-}
 .image-wrap {
   position: relative;
 }
 .image-overlay {
   opacity: 0;
   position: absolute;
+  width: 75%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -53,4 +46,16 @@ img {
   color: rgb(22, 22, 22);
   font-size: 16px;
   padding: 16px 32px;
+}
+
+.container {
+  min-width: 100%;
+}
+.primary-button {
+  background-color: #005d1c;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  margin-top: 20px;
 }
