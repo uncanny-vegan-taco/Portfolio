@@ -77,31 +77,117 @@ i {
   border-radius: 4px;
   color: white;
   padding: 15px 25px;
+  text-align: center;
   text-decoration: none;
-  margin: 10px;
+}
+.primary-button:hover {
+  background-color: #151e3f;
+  color: white;
 }
 /*About Page*/
 .about {
-  line-height: 2.3;
-  font-size: 18px;
+  margin-top: 30px;
+  line-height: 2.5;
+  font-size: 30px;
 }
-
+.container .about {
+  width: 80%;
+}
 .about-page-headshot {
+  width: 40%;
 }
 .about-page-name {
-  font-size: 60px;
+  font-size: 80px;
 }
 
 .about-name-button {
+  width: 65%;
 }
+.about-projects-button {
+  margin-top: 30px;
+  font-size: 25px;
+  width: 30%;
+  height: 95px;
+}
+
 @media (max-width: 1200px) {
-  .about-name-button {
+  .container .about {
     flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
   }
   .about-page-name {
     font-size: 5em;
   }
   .btn {
-    width: 20%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  #about-image-large {
+    display: none;
+  }
+
+  h1 {
+    font-size: 60px;
+    margin-top: 60px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .about-projects-button {
+    width: 25%;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: auto;
+  }
+  .container .about {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+
+    padding-top: 0px;
+  }
+  .about-page-name {
+    font-size: 50px;
+    margin: 0;
+  }
+  .about-name-button {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  img {
+    width: 60%;
+  }
+  .about-page-name {
+    font-size: 45px;
+  }
+  .about-projects-button {
+    width: 50%;
+    font-size: 18px;
+    padding: 5px 8px;
+  }
+  ul.about {
+    border: 1px solid var(--deep-green);
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .about p {
+    border: 1px solid var(--deep-green);
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 12px;
   }
 }
