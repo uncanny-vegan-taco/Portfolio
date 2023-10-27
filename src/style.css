@@ -78,17 +78,30 @@ i {
   color: white;
   padding: 15px 25px;
   text-decoration: none;
+  margin: 10px;
 }
+/*About Page*/
+.about {
+  line-height: 2.3;
+  font-size: 18px;
+}
+
 .about-page-headshot {
-  width: 40%;
 }
 .about-page-name {
   font-size: 60px;
 }
-.about {
-  font-size: 20px;
-  line-height: 2;
-}
+
 .about-name-button {
-  width: 55%;
+}
+@media (max-width: 1200px) {
+  .about-name-button {
+    flex-direction: column;
+  }
+  .about-page-name {
+    font-size: 5em;
+  }
+  .btn {
+    width: 20%;
+  }
 }
