@@ -3,6 +3,10 @@
   --light-green: #f9ffee;
   --deep-blue: #151e3f;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 h1 {
   margin-top: 20px;
   font-size: 96px;
@@ -85,5 +89,6 @@ i {
   font-size: 20px;
   line-height: 2;
 }
-.about .primary-button {
+.about-name-button {
+  width: 55%;
 }
