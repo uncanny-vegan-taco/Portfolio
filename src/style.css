@@ -171,6 +171,16 @@ i {
     text-align: center;
     width: 100%;
   }
+  ul.about {
+    border: 1px solid var(--deep-green);
+    border-radius: 4px;
+    padding: 5px;
+  }
+  .about p {
+    border: 1px solid var(--deep-green);
+    border-radius: 4px;
+    padding: 5px;
+  }
 }
 @media (max-width: 991px) {
   footer {
@@ -181,7 +191,7 @@ i {
     margin-bottom: 10px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .homepage img {
     display: none;
   }
