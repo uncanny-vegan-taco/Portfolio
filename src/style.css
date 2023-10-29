@@ -37,6 +37,9 @@ i {
   font-size: 30px;
   color: var(--deep-green);
 }
+.container {
+  width: 100%;
+}
 .primary-button {
   background-color: #005d1c;
   border-radius: 4px;
@@ -51,9 +54,7 @@ i {
 }
 
 /*Homepage*/
-.homepage.container {
-  width: 100%;
-}
+
 .homepage img {
   width: 100%;
   height: 500px;
@@ -105,9 +106,7 @@ footer.homepage {
   line-height: 2.5;
   font-size: 30px;
 }
-.about.container {
-  width: 100%;
-}
+
 .about-page-headshot {
   width: 30%;
   height: fit-content;
@@ -123,7 +122,7 @@ footer.homepage {
 }
 
 /*Projects Page*/
-.container.projects {
+.container .projects {
   width: 75%;
 }
 .projects img {
@@ -143,8 +142,8 @@ footer.homepage {
     text-align: center;
     margin: 0 auto;
   }
-  .about-page-name {
-    font-size: 5em;
+  .about-image-button {
+    display: none;
   }
   .btn {
     font-size: 20px;
@@ -173,8 +172,8 @@ footer.homepage {
   }
 
   h1 {
-    font-size: 60px;
-    margin-top: 60px;
+    font-size: 80px;
+    margin-top: 80px;
   }
   img {
     display: block;
@@ -184,7 +183,7 @@ footer.homepage {
   ul {
     list-style-type: none;
   }
-  .about-projects-button {
+  a {
     width: 25%;
     margin: 0 auto;
     font-size: 18px;
@@ -197,14 +196,14 @@ footer.homepage {
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-
     padding-top: 0px;
   }
   .about-page-name {
-    font-size: 50px;
-    margin: 0;
+    font-size: 60px;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
-  .about-name-button {
+  .about-image-button {
     flex-direction: column;
     text-align: center;
     width: 100%;
@@ -244,6 +243,9 @@ footer.homepage {
   h2.homepage {
     font-size: 25px;
   }
+  a {
+    font-size: 25px;
+  }
   .descriptions {
     text-align: center;
     width: 70%;
@@ -266,8 +268,8 @@ footer.homepage {
   img {
     width: 60%;
   }
-  .about-page-name {
-    font-size: 45px;
+  a {
+    font-size: 18px;
   }
   .about-projects-button {
     width: 50%;
