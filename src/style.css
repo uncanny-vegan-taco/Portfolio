@@ -28,9 +28,8 @@ img {
 }
 footer {
   width: 40%;
-  position: fixed;
-  left: 30%;
-  bottom: 2%;
+  position: static;
+  margin: 0 auto;
 }
 i {
   font-size: 30px;
@@ -41,6 +40,12 @@ i {
   height: 500px;
   border-radius: 4px;
   transition: 200ms ease-in-out;
+}
+footer.homepage {
+  position: fixed;
+  bottom: 0%;
+  left: 30%;
+  margin-bottom: 20px;
 }
 .image-wrap:hover img {
   opacity: 0.2;
@@ -100,7 +105,8 @@ i {
   width: 80%;
 }
 .about-page-headshot {
-  width: 40%;
+  width: 30%;
+  height: fit-content;
 }
 .about-page-name {
   font-size: 80px;
@@ -183,7 +189,7 @@ i {
   }
 }
 @media (max-width: 991px) {
-  footer {
+  footer.homepage {
     position: static;
     margin-bottom: 20px;
     margin: 0 auto;
