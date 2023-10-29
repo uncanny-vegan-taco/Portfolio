@@ -3,6 +3,8 @@
   --light-green: #f9ffee;
   --deep-blue: #151e3f;
 }
+
+/*General*/
 body {
   margin: 0;
   padding: 0;
@@ -34,6 +36,23 @@ footer {
 i {
   font-size: 30px;
   color: var(--deep-green);
+}
+.primary-button {
+  background-color: #005d1c;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+.primary-button:hover {
+  background-color: #151e3f;
+  color: white;
+}
+
+/*Homepage*/
+.homepage.container {
+  width: 100%;
 }
 .homepage img {
   width: 100%;
@@ -80,29 +99,14 @@ footer.homepage {
   margin-top: 30px;
 }
 
-.container {
-  min-width: 100%;
-}
-.primary-button {
-  background-color: #005d1c;
-  border-radius: 4px;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-}
-.primary-button:hover {
-  background-color: #151e3f;
-  color: white;
-}
 /*About Page*/
 .about {
   margin-top: 30px;
   line-height: 2.5;
   font-size: 30px;
 }
-.container .about {
-  width: 80%;
+.about.container {
+  width: 100%;
 }
 .about-page-headshot {
   width: 30%;
@@ -110,16 +114,27 @@ footer.homepage {
 }
 .about-page-name {
   font-size: 80px;
-}
-
-.about-name-button {
   width: 65%;
 }
-.about-projects-button {
-  margin-top: 30px;
-  font-size: 25px;
-  width: 30%;
-  height: 95px;
+
+.about-image-button {
+  width: 100%;
+  text-align: center;
+}
+
+/*Projects Page*/
+.container.projects {
+  width: 75%;
+}
+.projects img {
+  margin-bottom: 20px;
+}
+.titles h3 {
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+.titles .primary-button {
+  font-size: 30px;
 }
 
 @media (max-width: 1200px) {
@@ -133,6 +148,23 @@ footer.homepage {
   }
   .btn {
     font-size: 20px;
+  }
+  .projects img {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .titles h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .titles .primary-button {
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 20%;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 1199px) {
@@ -196,6 +228,10 @@ footer.homepage {
     margin-top: 20px;
     margin-bottom: 10px;
   }
+  .titles .primary-button {
+    font-size: 20px;
+    width: 30%;
+  }
 }
 @media (max-width: 768px) {
   .homepage img {
@@ -219,6 +255,11 @@ footer.homepage {
   }
   .descriptions p {
     font-size: 20px;
+  }
+
+  .titles .primary-button {
+    font-size: 15px;
+    width: 50%;
   }
 }
 @media (max-width: 500px) {
