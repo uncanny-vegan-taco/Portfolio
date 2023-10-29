@@ -141,6 +141,9 @@ footer.homepage {
   font-size: 20px;
   margin-top: 30px;
 }
+.social {
+  margin-top: 20px;
+}
 
 @media (max-width: 1200px) {
   .container .about {
