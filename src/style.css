@@ -247,6 +247,17 @@ footer.homepage {
     margin-top: 20px;
     margin-bottom: 10px;
   }
+  .image-overlay,
+  .image-text {
+    display: none;
+  }
+  .image-wrap {
+    background-color: transparent;
+  }
+  .image-wrap:hover img {
+    opacity: 1;
+    background-color: transparent;
+  }
   .titles .primary-button {
     font-size: 20px;
     width: 30%;
@@ -266,6 +277,7 @@ footer.homepage {
   a {
     font-size: 25px;
   }
+
   .descriptions {
     text-align: center;
     width: 70%;
