@@ -8,6 +8,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--light-green);
 }
 h1 {
   margin-top: 80px;
@@ -148,6 +149,13 @@ footer.homepage {
 .social {
   margin-top: 20px;
 }
+.social a {
+  text-decoration: none;
+  color: black;
+}
+.social a:hover {
+  color: var(--deep-green);
+}
 
 @media (max-width: 1200px) {
   .container .about {
@@ -186,7 +194,6 @@ footer.homepage {
 
   h1 {
     font-size: 80px;
-    margin-top: 80px;
   }
   img {
     display: block;
@@ -249,7 +256,7 @@ footer.homepage {
   .homepage img {
     display: none;
   }
-  h1.homepage {
+  h1 {
     margin-top: 80px;
     font-size: 50px;
   }
