@@ -1,14 +1,15 @@
 :root {
-  --deep-green: #005d1c;
-  --light-green: #a6ff0011;
-  --deep-blue: #151e3f;
+  --deep-green: #2c786c;
+  --light-green: #faf5e4;
+  --deep-blue: #004445;
+  --orange: #f8b400;
 }
 
 /*General*/
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--light-green);
+  background-color: var(--deep-green);
 }
 h1 {
   margin-top: 80px;
@@ -22,6 +23,7 @@ h2 {
 h1,
 h2 {
   text-align: center;
+  color: #f8b400;
 }
 h3 {
   font-size: 36px;
@@ -36,7 +38,8 @@ footer {
 }
 i {
   font-size: 30px;
-  color: var(--deep-green);
+  color: var(--orange);
+  transition: 200ms ease-in-out;
 }
 i:hover {
   color: var(--deep-blue);
@@ -45,15 +48,16 @@ i:hover {
   width: 100%;
 }
 .primary-button {
-  background-color: #005d1c;
+  background-color: #f8b400;
   border-radius: 4px;
   color: white;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
+  transition: 200ms ease-in-out;
 }
 .primary-button:hover {
-  background-color: #151e3f;
+  background-color: var(--deep-blue);
   color: white;
 }
 
@@ -152,9 +156,10 @@ footer.homepage {
 .social a {
   text-decoration: none;
   color: black;
+  transition: 200ms ease-in-out;
 }
 .social a:hover {
-  color: var(--deep-green);
+  color: var(--deep-blue);
 }
 
 @media (max-width: 1200px) {
