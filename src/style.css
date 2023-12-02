@@ -23,7 +23,8 @@ h2 {
 h1,
 h2 {
   text-align: center;
-  color: #f8b400;
+  color: var(--light-green);
+  font-family: "Gochi Hand", cursive;
 }
 h3 {
   font-size: 36px;
@@ -54,6 +55,8 @@ i:hover {
   font-size: 20px;
 }
 .navbar-brand {
+  font-family: "Gochi Hand", cursive;
+  font-size: 30px;
   color: var(--orange);
   font-weight: bold;
 }
