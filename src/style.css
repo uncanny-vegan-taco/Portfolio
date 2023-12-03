@@ -403,6 +403,9 @@ h1.contact {
   }
 }
 @media (max-width: 500px) {
+  .projects img {
+    display: none;
+  }
   img {
     width: 60%;
   }
