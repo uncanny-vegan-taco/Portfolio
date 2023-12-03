@@ -290,7 +290,6 @@ h1.contact {
   a {
     width: 25%;
     margin: 0 auto;
-
     padding: 0px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -312,6 +311,9 @@ h1.contact {
     text-align: center;
     width: 100%;
   }
+  .about-button .primary-button {
+    margin-top: 100px;
+  }
   ul.about {
     border: 1px solid var(--deep-green);
     border-radius: 4px;
@@ -330,6 +332,9 @@ h1.contact {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+  .poem-home {
+    margin-top: 50px;
   }
   .image-overlay,
   .image-text {
@@ -351,9 +356,6 @@ h1.contact {
   }
 }
 @media (max-width: 768px) {
-  .homepage img {
-    display: none;
-  }
   h1 {
     margin-top: 80px;
     font-size: 50px;
