@@ -336,17 +336,7 @@ h1.contact {
   .poem-home {
     margin-top: 50px;
   }
-  .image-overlay,
-  .image-text {
-    display: none;
-  }
-  .image-wrap {
-    background-color: transparent;
-  }
-  .image-wrap:hover img {
-    opacity: 1;
-    background-color: transparent;
-  }
+
   .titles .primary-button {
     font-size: 20px;
     width: 30%;
