@@ -148,9 +148,12 @@ h1.about-head {
   margin-left: 10px;
   font-family: "Gochi Hand", cursive;
 }
+#about-image-large {
+  width: 80%;
+}
 
 .about-image-button {
-  width: 100%;
+  width: 80%;
   text-align: center;
 }
 
@@ -246,6 +249,9 @@ h1.contact {
   .about-image-button {
     display: none;
   }
+  #about-image-large {
+    display: none;
+  }
   .btn {
     font-size: 20px;
   }
@@ -276,10 +282,6 @@ h1.contact {
   }
 }
 @media (max-width: 1199px) {
-  #about-image-large {
-    display: none;
-  }
-
   h1 {
     font-size: 80px;
   }
