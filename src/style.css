@@ -123,6 +123,9 @@ i:hover {
   font-family: "Noto Sans", sans-serif;
   font-weight: 100;
 }
+.long-button {
+  font-size: 12px;
+}
 
 /*About Page*/
 .about {
@@ -244,6 +247,7 @@ h1.contact {
   h1 {
     margin-top: 100px;
   }
+
   .container .about {
     flex-direction: column;
     text-align: center;
@@ -255,9 +259,10 @@ h1.contact {
   #about-image-large {
     display: none;
   }
-  .btn {
+  .primary-button {
     font-size: 20px;
   }
+
   .projects img {
     width: 100%;
     text-align: center;
