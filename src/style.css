@@ -253,6 +253,9 @@ h1.contact {
     text-align: center;
     margin: 0 auto;
   }
+  .image-text h3 {
+    font-size: 24px;
+  }
   .about-image-button {
     display: none;
   }
@@ -260,9 +263,11 @@ h1.contact {
     display: none;
   }
   .primary-button {
-    font-size: 20px;
+    font-size: 12px;
   }
-
+  .long-button {
+    font-size: 8px;
+  }
   .projects img {
     width: 100%;
     text-align: center;
@@ -489,7 +494,7 @@ h1.contact {
     font-size: 0.75em;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 335px) {
   .image-text h3 {
     font-size: 20px;
   }
