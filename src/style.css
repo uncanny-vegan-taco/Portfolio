@@ -12,8 +12,8 @@ body {
   background-color: var(--deep-green);
 }
 h1 {
-  margin-top: 80px;
-  font-size: 132px;
+  margin-top: 30px;
+  font-size: 160px;
   font-family: "Gochi Hand", cursive;
 }
 h2 {
@@ -45,26 +45,11 @@ footer {
 i {
   font-size: 30px;
   color: var(--orange);
-  transition: 200ms ease-in-out;
 }
-i:hover {
-  color: var(--deep-blue);
+i.skills {
+  font-size: 50px;
 }
-.navbar {
-  background-color: var(--deep-green);
-}
-.nav-link {
-  color: var(--light-green);
-  font-size: 20px;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 100;
-}
-.navbar-brand {
-  font-family: "Gochi Hand", cursive;
-  font-size: 30px;
-  color: var(--orange);
-  font-weight: bold;
-}
+
 .container {
   width: 100%;
 }
@@ -83,45 +68,24 @@ i:hover {
   background-color: var(--deep-blue);
   color: var(--light-green);
 }
-
-/*Homepage*/
-
-.homepage img {
-  width: 100%;
-  height: 500px;
-  border-radius: 4px;
-  transition: 200ms ease-in-out;
-}
-
-.image-wrap:hover img {
-  opacity: 0.2;
-}
-.image-wrap:hover .image-overlay {
-  opacity: 1;
-}
-.image-wrap {
-  position: relative;
-  background-color: #000000;
-  border-radius: 4px;
-}
-.image-overlay {
-  opacity: 0;
-  position: absolute;
-  width: 75%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  transition: 200ms ease-in-out;
-}
-.image-text {
-  color: var(--light-green);
-  font-size: 16px;
-  padding: 16px 32px;
-  line-height: 2;
+.headers {
+  margin-top: 50px;
   font-family: "Noto Sans", sans-serif;
-  font-weight: 100;
+  font-weight: 600;
+  font-size: 96px;
+}
+.skill-container {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 75%;
+}
+.certification {
+  text-decoration: none;
+  color: var(--light-green);
+  transition: all 200ms ease-in-out;
+}
+.certification:hover {
+  color: var(--deep-blue);
 }
 
 /*About Page*/
@@ -133,43 +97,19 @@ i:hover {
   font-family: "Noto Sans", sans-serif;
   font-weight: 100;
 }
-h1.about-head {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 600;
-  font-size: 96px;
-}
+
 .about-page-headshot {
   width: 30%;
   height: fit-content;
 }
 .about-page-name {
-  font-size: 75px;
+  font-size: 96px;
   width: 65%;
   margin-left: 10px;
   font-family: "Gochi Hand", cursive;
 }
 
-.about-image-button {
-  width: 100%;
-  text-align: center;
-}
-
 /*Projects Page*/
-.container .projects {
-  width: 75%;
-}
-.project-head {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 600;
-  font-size: 96px;
-}
-h1.project-head {
-  font-weight: 600;
-  font-size: 96px;
-}
-h2.project-head {
-  font-size: 48px;
-}
 .descriptions {
   font-family: "Noto Sans", sans-serif;
   font-weight: 100;
@@ -178,7 +118,8 @@ h2.project-head {
   margin-bottom: 40px;
 }
 .projects img {
-  margin-bottom: 20px;
+  width: 80%;
+  margin-bottom: 40px;
 }
 .titles h3 {
   font-size: 80px;
@@ -191,15 +132,13 @@ h2.project-head {
 }
 
 /*Contact Page*/
-h1.contact {
-  margin-bottom: 30px;
-  font-size: 96px;
-}
+
 .contact {
   display: flex;
   justify-content: center;
   font-family: "Noto Sans", sans-serif;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .contact-info {
