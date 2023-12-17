@@ -35,13 +35,7 @@ h3 {
 img {
   border-radius: 4px;
 }
-footer {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
+
 i {
   font-size: 30px;
   color: var(--orange);
@@ -90,7 +84,9 @@ i.skills {
 
 /*About Page*/
 .about {
+  width: 100%;
   margin-top: 30px;
+  padding-right: 30px;
   line-height: 2.5;
   font-size: 20px;
   color: var(--light-green);
@@ -176,51 +172,13 @@ i.skills {
   color: var(--deep-blue);
 }
 
-@media (max-width: 1200px) {
-  .container .about {
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
-  }
-  .about-image-button {
-    display: none;
-  }
-  .btn {
-    font-size: 20px;
-  }
-  .projects img {
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-  }
-  .titles h3 {
-    font-size: 40px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  .titles .primary-button {
-    display: block;
-    font-size: 20px;
-    margin: 0 auto;
-    width: 20%;
-    margin-bottom: 20px;
-  }
-
-  .resume {
-    width: 50%;
-  }
-  .contact {
-    display: flex;
-    justify-content: center;
-  }
-}
 @media (max-width: 1199px) {
   #about-image-large {
     display: none;
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 100px;
   }
   img {
     display: block;
@@ -238,6 +196,23 @@ i.skills {
     margin-bottom: 15px;
     height: auto;
   }
+  .headers {
+    font-size: 60px;
+  }
+  .skill-container {
+    text-align: center;
+  }
+  .projects {
+    width: 100%;
+    flex-direction: column;
+  }
+  .projects img {
+    width: 80%;
+  }
+  .titles {
+    text-align: center;
+    margin-bottom: 50px;
+  }
   .container .about {
     flex-direction: column;
     text-align: center;
@@ -249,11 +224,7 @@ i.skills {
     margin: 0 auto;
     margin-bottom: 20px;
   }
-  .about-image-button {
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-  }
+
   .about-button .primary-button {
     margin-top: 100px;
   }
