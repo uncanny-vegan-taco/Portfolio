@@ -31,55 +31,63 @@
     <title>Homepage - Kyli White Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <h1>KYLI WHITE</h1>
-      <h2>
-        <a
-          href="https://www.shecodes.io/graduates/99048-kyli-white"
-          class="certification"
-          target="_blank"
-          >Certified Front-End Developer</a
-        >
-        <br />
-        based in Redmond, WA
-      </h2>
-      <div class="row skill-container">
-        <div class="d-flex justify-content-evenly">
-          <i class="fa-brands fa-html5 skills"></i>
-          <i class="fa-brands fa-css3-alt skills"></i>
-          <i class="fa-brands fa-js skills"></i>
-          <i class="fa-brands fa-react skills"></i>
-          <i class="fa-brands fa-bootstrap skills"></i>
-          <i class="fa-brands fa-github skills"></i>
-          <i class="fa-solid fa-code skills"></i>
+    <div class="container-fluid p-0">
+      <div class="main">
+        <h1>KYLI WHITE</h1>
+        <h2>
+          <a
+            href="https://www.shecodes.io/graduates/99048-kyli-white"
+            class="certification"
+            target="_blank"
+            >Certified Front-End Developer</a
+          >
+          <br />
+          based in Redmond, WA
+        </h2>
+        <div class="row skill-container">
+          <div class="d-flex justify-content-between">
+            <i class="fa-brands fa-html5 skills"></i>
+            <i class="fa-brands fa-css3-alt skills"></i>
+            <i class="fa-brands fa-js skills"></i>
+            <i class="fa-brands fa-react skills"></i>
+            <i class="fa-brands fa-bootstrap skills"></i>
+            <i class="fa-brands fa-github skills"></i>
+            <i class="fa-solid fa-code skills"></i>
+          </div>
         </div>
       </div>
       <div class="row">
         <h1 class="headers">Projects</h1>
-        <div class="projects d-flex mt-5">
-          <div class="col-xl-6 col-12">
-            <img
-              src="media/React Weather.png"
-              class="projects"
-              id="react-weather"
-            />
-          </div>
-          <div class="col-xl-6 col-12 titles">
-            <h3>React Weather App</h3>
-            <p class="descriptions">
-              A re-creation of the Vanilla JS weather app converted into React.
-              Features animated weather icons and searchable locations.
-            </p>
-            <a
-              href="https://chimerical-cat-3d6e85.netlify.app"
-              target="_blank"
-              class="primary-button mt-3"
-              >Link to Site</a
-            >
+        <div class="project-container d-flex mt-5">
+          <div class="projects d-flex">
+            <div class="col-xl-6 col-12">
+              <img
+                src="media/React Weather.png"
+                class="projects shadow"
+                id="react-weather"
+              />
+            </div>
+            <div class="col-xl-6 col-12 titles">
+              <h3>React Weather App</h3>
+              <p class="descriptions">
+                A re-creation of the Vanilla JS weather app converted into
+                React. Features animated weather icons and searchable locations.
+              </p>
+              <a
+                href="https://chimerical-cat-3d6e85.netlify.app"
+                target="_blank"
+                class="primary-button mt-3"
+                >Link to Site</a
+              >
+            </div>
           </div>
           <div class="d-flex projects">
             <div class="col-xl-6 col-12">
-              <img src="media/worldclock.png" class="projects" id="clock" />
+              <img
+                src="media/worldclock.png"
+                class="projects shadow"
+                id="clock"
+              />
             </div>
             <div class="col-xl-6 col-12 titles">
               <h3>World Clock</h3>
@@ -100,7 +108,7 @@
             <div class="col-xl-6 col-12">
               <img
                 src="media/AI Poem Generator.png"
-                class="projects"
+                class="projects shadow"
                 id="poem"
               />
             </div>
@@ -123,7 +131,7 @@
             <div class="col-xl-6 col-12">
               <img
                 src="media/React Dictionary.png"
-                class="projects"
+                class="projects shadow"
                 id="dictionary"
               />
             </div>
@@ -144,7 +152,11 @@
 
           <div class="d-flex projects">
             <div class="col-xl-6 col-12">
-              <img src="media/weather.png" class="projects" id="weather" />
+              <img
+                src="media/weather.png"
+                class="projects shadow"
+                id="weather"
+              />
             </div>
             <div class="col-xl-6 col-12 titles">
               <h3>Weather App</h3>
@@ -164,7 +176,11 @@
 
           <div class="d-flex projects">
             <div class="col-xl-6 col-12">
-              <img src="media/pilates.png" class="projects" id="pilates" />
+              <img
+                src="media/pilates.png"
+                class="projects shadow"
+                id="pilates"
+              />
             </div>
             <div class="col-xl-6 col-12 titles">
               <h3>Pilates</h3>
@@ -184,52 +200,56 @@
       </div>
 
       <div class="row">
-        <h1 class="headers">About</h1>
-        <div class="about d-flex">
-          <div>
-            <h2 class="about-page-name">Kyli White</h2>
-            <div id="about-image-small" class="d-xl-none text-center">
-              <img src="media/Kyli Photo2.jpg" class="mb-3" />
+        <div class="about-container">
+          <h1 class="headers about-head">About</h1>
+          <div class="about d-flex">
+            <div>
+              <h2 class="about-page-name">Kyli White</h2>
+              <div id="about-image-small" class="d-xl-none text-center">
+                <img src="media/Kyli Photo2.jpg" class="mb-3" />
+              </div>
+
+              <p class="about mt-3">
+                Was born and raised in Walla Walla, WA in the USA. <br />
+                She is the youngest of 5 girls in her family. <br />
+                She's done a little bit of everything:
+              </p>
+              <ul class="about mt-3">
+                <li>
+                  Received two degrees (BM and MM) in French Horn Performance
+                  from Brigham Young University and Northwestern University
+                </li>
+                <li>Is a Certified Yoga Instructor</li>
+                <li>Sold Candles at the famous Pike Place Market</li>
+                <li>
+                  Worked in Operations in one of the largest law firms in the
+                  world
+                </li>
+                <li>
+                  Received multiple certifications as a Front-end Developer
+                </li>
+              </ul>
+              <p class="about mt-3">
+                She now lives in Redmond, WA with her husband, and her dog and
+                cat, Maple and Chubs.
+              </p>
             </div>
 
-            <p class="about mt-3">
-              Was born and raised in Walla Walla, WA in the USA. <br />
-              She is the youngest of 5 girls in her family. <br />
-              She's done a little bit of everything:
-            </p>
-            <ul class="about mt-3">
-              <li>
-                Received two degrees (BM and MM) in French Horn Performance from
-                Brigham Young University and Northwestern University
-              </li>
-              <li>Is a Certified Yoga Instructor</li>
-              <li>Sold Candles at the famous Pike Place Market</li>
-              <li>
-                Worked in Operations in one of the largest law firms in the
-                world
-              </li>
-              <li>Received multiple certifications as a Front-end Developer</li>
-            </ul>
-            <p class="about mt-3">
-              She now lives in Redmond, WA with her husband, and her dog and
-              cat, Maple and Chubs.
-            </p>
-          </div>
-
-          <div>
-            <img
-              src="media/Kyli Photo2.jpg"
-              alt="Photo of Kyli White"
-              class="border shadow mb-5"
-              id="about-image-large"
-            />
+            <div>
+              <img
+                src="media/Kyli Photo2.jpg"
+                alt="Photo of Kyli White"
+                class="border shadow mb-5"
+                id="about-image-large"
+              />
+            </div>
           </div>
         </div>
       </div>
 
       <div class="row">
         <h1 class="headers">Contact Me!</h1>
-        <div class="d-flex">
+        <div class="contact">
           <div class="resume shadow">
             <a href="media/Kyli White Resume.pdf" target="_blank"
               ><img src="media/Kyli White Resume.png" alt="Resume"
